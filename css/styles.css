@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 0 30px;
+    height: 10vh;
+}
+
+.logo {
+    display: flex;
+    justify-content: left;
+    font-size: 20px;
+    height: 5vh;
+}
+
+header nav {
+    display: flex;
+    justify-content: right;
+    margin: auto;
+    padding: auto;
+}
+
+header nav a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.pagina1 {
+    height: 90vh;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: aqua;
+}
+
+.pagina2 {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sobrenosotros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.masproductos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.listaProductos{
+    display: flex;
+    flex-flow: column nowrap;
+    overflow-y: scroll;
+    height: 50vh;
+}
+
+.listaProductos div {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.listaProductos img {
+    margin: 10px;
+}
+
+.pagina3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.tabla {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px red;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.tabla table{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+    width: 50%;
+    overflow-y: scroll;
+    margin: 20px;
+   
+}
+
+.mapform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px red;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.redessociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagina4 {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.logosSocios{
+    display: flex;
+    justify-content: right;
+    margin: 10px 10px;    
+}
+.logosSocios img {
+    margin: 0 20px;
+}
+
+.infosocios {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+
+}
+
+
+
+
+
+
+
+footer {
+    height: 10vh
+}
+
+.infosocios
